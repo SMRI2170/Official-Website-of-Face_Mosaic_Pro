@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Face Mosaic Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; background-color: #000; color: white; }
+        .glass { background: rgba(30, 30, 30, 0.6); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="fixed w-full z-50 glass">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold">Face Mosaic Pro</a>
+            <select id="language-selector" class="bg-black border border-white/20 rounded px-2 py-1 text-sm"></select>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-32 pb-20 px-6">
+        <div class="container mx-auto max-w-3xl">
+            <h1 class="text-4xl font-bold mb-8 text-[#6C63FF]" data-i18n="terms_title">Terms of Service</h1>
+            
+            <div class="glass p-8 rounded-2xl space-y-8 text-gray-300">
+                <p data-i18n="terms_intro" class="text-lg">By using Face Mosaic Pro, you agree to these terms.</p>
+                
+                <div>
+                    <h2 class="text-xl font-bold text-white mb-2" data-i18n="terms_sec1_title">1. License</h2>
+                    <p data-i18n="terms_sec1_desc">Personal use only.</p>
+                </div>
+
+                <div>
+                    <h2 class="text-xl font-bold text-white mb-2" data-i18n="terms_sec2_title">2. Advertisements</h2>
+                    <p data-i18n="terms_sec2_desc">You agree to see ads.</p>
+                </div>
+
+                <div>
+                    <h2 class="text-xl font-bold text-white mb-2" data-i18n="terms_sec3_title">3. Disclaimer</h2>
+                    <p data-i18n="terms_sec3_desc">App provided as-is.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-white/10 py-10 text-center text-gray-600 text-xs">
+        <p data-i18n="footer_rights">© 2025 Face Mosaic Pro. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/translations.js"></script>
+</body>
+</html>
