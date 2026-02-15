@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="meta_title">Face Mosaic Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; background-color: #000; color: white; }
+        .glass {
+            background: rgba(30, 30, 30, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #6C63FF, #03DAC6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 glass">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-wider flex items-center gap-2">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#6C63FF] to-[#03DAC6]"></div>
+                Face Mosaic
+            </a>
+            <nav class="hidden md:flex gap-8">
+                <a href="index.html" data-i18n="nav_home" class="hover:text-[#03DAC6] transition">Home</a>
+                <a href="privacy.html" data-i18n="nav_privacy" class="hover:text-[#03DAC6] transition">Privacy</a>
+                <a href="support.html" data-i18n="nav_support" class="hover:text-[#03DAC6] transition">Support</a>
+            </nav>
+            <select id="language-selector" class="bg-black border border-white/20 rounded px-2 py-1 text-sm focus:outline-none"></select>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="flex-grow pt-32 pb-20 px-6 relative overflow-hidden">
+        <!-- Background Glow -->
+        <div class="absolute top-20 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-[#6C63FF] opacity-20 blur-[120px] rounded-full pointer-events-none"></div>
+
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6" data-i18n="hero_title">Protect Identity in Videos with AI</h1>
+            <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto" data-i18n="hero_desc">
+                Automatically detect faces and apply mosaic, blur, or stickers. Processing is done entirely on-device for maximum privacy.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-gray-200 transition flex items-center justify-center gap-2">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.74 1.18 0 2.48-1.23 3.93-.65 1.03.25 2.34.8 3.05 2.09-3.74 2.25-3.13 6.94.32 8.79zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+                    <span data-i18n="download_ios">Download on App Store</span>
+                </button>
+                <button class="glass px-8 py-4 rounded-full font-bold hover:bg-white/10 transition flex items-center justify-center gap-2">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M3,20.5V3.5C3,2.91,3.34,2.39,3.84,2.15L13.69,12L3.84,21.85C3.34,21.6,3,21.09,3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.3,12.56L10,21.34L17.74,16.05L20.3,14.53C20.93,14.16,21,13.38,20.64,12.75C20.55,12.6,20.44,12.47,20.3,12.56M16.81,8.88L14.54,11.15L6.05,2.66L16.81,8.88M20.3,11.44C20.93,11.07,21,10.28,20.64,9.66C20.55,9.5,20.44,9.37,20.3,11.44L17.74,7.95L10,2.66L20.3,11.44Z"/></svg>
+                    <span data-i18n="download_android">Get it on Google Play</span>
+                </button>
+            </div>
+
+            <!-- App Screen Mockup -->
+            <div class="mt-20 mx-auto max-w-sm border-8 border-gray-800 rounded-[3rem] overflow-hidden shadow-2xl relative bg-gray-900 aspect-[9/19]">
+                <div class="absolute inset-0 flex items-center justify-center text-gray-700">
+                    [App Screenshot Placeholder]
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features -->
+    <section class="py-20 bg-[#0F0F0F]">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8">
+            <div class="glass p-8 rounded-2xl">
+                <div class="text-[#6C63FF] text-4xl mb-4">🎯</div>
+                <h3 class="text-xl font-bold mb-2" data-i18n="feature_1_title">AI Face Detection</h3>
+                <p class="text-gray-400" data-i18n="feature_1_desc">High-precision face detection tracks movement automatically.</p>
+            </div>
+            <div class="glass p-8 rounded-2xl">
+                <div class="text-[#03DAC6] text-4xl mb-4">🔒</div>
+                <h3 class="text-xl font-bold mb-2" data-i18n="feature_2_title">On-Device Privacy</h3>
+                <p class="text-gray-400" data-i18n="feature_2_desc">Your videos never leave your phone. 100% secure.</p>
+            </div>
+            <div class="glass p-8 rounded-2xl">
+                <div class="text-purple-400 text-4xl mb-4">🎨</div>
+                <h3 class="text-xl font-bold mb-2" data-i18n="feature_3_title">Creative Effects</h3>
+                <p class="text-gray-400" data-i18n="feature_3_desc">Choose from Pixelate, Blur, Blackout, or Stickers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-10">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center gap-6 mb-8 text-sm text-gray-400">
+                <a href="privacy.html" data-i18n="nav_privacy" class="hover:text-white">Privacy Policy</a>
+                <a href="terms.html" data-i18n="nav_terms" class="hover:text-white">Terms of Service</a>
+                <a href="support.html" data-i18n="nav_support" class="hover:text-white">Support</a>
+            </div>
+            <p class="text-gray-600 text-xs" data-i18n="footer_rights">© 2024 Face Mosaic Pro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/translations.js"></script>
+</body>
+</html>
