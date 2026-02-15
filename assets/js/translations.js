@@ -462,15 +462,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 5. リンクのURL書き換え（404エラー対策）
-    // ページ遷移時に言語パラメータを維持するため、aタグのhref属性を直接書き換える
+    // 5. リンクのURL書き換え（404エラー対策 & パラメータ引き継ぎ）
     document.querySelectorAll('a').forEach(link => {
         const href = link.getAttribute('href');
         // 外部サイト、アンカーリンク、メールリンク以外を対象
         if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto')) {
             // 既存のクエリパラメータがあるか確認して区切り文字を決定
             const separator = href.includes('?') ? '&' : '?';
-            // href属性を直接書き換える（例: privacy.html -> privacy.html?lang=ja）
+            
+            // href属性を直接書き換えることで、クリック時に404にならず
+            // 正しいファイルパス + 言語パラメータ で遷移できるようにする
+            // 例: privacy.html -> privacy.html?lang=ja
             link.setAttribute('href', `${href}${separator}lang=${currentLang}`);
         }
     });
