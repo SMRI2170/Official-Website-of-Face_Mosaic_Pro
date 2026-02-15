@@ -24,7 +24,7 @@ const translations = {
         privacy_sec2_title: "2. Advertising & Third-Party Services",
         privacy_sec2_desc: "This app uses Google AdMob to display advertisements. AdMob may collect and use personal data, including your Advertising ID, to serve personalized ads. By using this app, you consent to this data collection.",
         privacy_sec3_title: "3. Contact Us",
-        privacy_sec3_desc: "If you have any questions about this Privacy Policy, please contact us at devryosuke2025@gmail.com.",
+        privacy_sec3_desc: "If you have any questions about this Privacy Policy, please contact us at devbyryosuke2025@gmail.com.",
         
         // Terms of Service
         terms_title: "Terms of Service",
@@ -66,7 +66,7 @@ const translations = {
         privacy_sec2_title: "2. 広告および第三者サービス",
         privacy_sec2_desc: "本アプリは広告配信のためにGoogle AdMobを使用しています。AdMobは、パーソナライズされた広告を提供するために、広告IDなどのデバイス情報を収集・使用する場合があります。",
         privacy_sec3_title: "3. お問い合わせ",
-        privacy_sec3_desc: "プライバシーポリシーに関するご質問は、devryosuke2025@gmail.com までご連絡ください。",
+        privacy_sec3_desc: "プライバシーポリシーに関するご質問は、devbyryosuke2025@gmail.com までご連絡ください。",
         
         terms_title: "利用規約",
         terms_intro: "本アプリを使用することで、以下の規約に同意したものとみなされます。",
@@ -81,46 +81,6 @@ const translations = {
         support_desc: "バグの報告や機能のリクエストは、以下のボタンからお問い合わせください。",
         contact_btn: "メールで問い合わせる",
         footer_rights: "© 2025 Face Mosaic Pro. All rights reserved."
-    },
-    zh: {
-        meta_title: "Face Mosaic Pro - AI视频隐私保护",
-        nav_home: "首页",
-        nav_privacy: "隐私政策",
-        nav_terms: "服务条款",
-        nav_support: "支持",
-        hero_title: "利用AI保护视频中的身份",
-        hero_desc: "自动检测人脸并应用马赛克、模糊或贴纸。所有处理均在设备上完成，最大限度保护隐私。",
-        download_ios: "App Store下载",
-        download_android: "Google Play下载",
-        feature_1_title: "AI人脸检测",
-        feature_1_desc: "高精度人脸检测，自动跟踪移动目标。",
-        feature_2_title: "本地隐私保护",
-        feature_2_desc: "您的视频从未离开手机，100%安全。",
-        feature_3_title: "创意效果",
-        feature_3_desc: "选择像素化、模糊、黑屏或贴纸。",
-        
-        privacy_title: "隐私政策",
-        privacy_intro: "在 Face Mosaic Pro，我们优先考虑您的隐私。",
-        privacy_sec1_title: "1. 本地视频处理",
-        privacy_sec1_desc: "我们不会上传、存储或传输您的视频数据到任何服务器。所有处理均在您的设备本地进行。",
-        privacy_sec2_title: "2. 广告和第三方服务",
-        privacy_sec2_desc: "本应用使用 Google AdMob 展示广告。AdMob 可能会收集并使用包括广告 ID 在内的个人数据以提供个性化广告。",
-        privacy_sec3_title: "3. 联系我们",
-        privacy_sec3_desc: "如有疑问，请联系：devryosuke2025@gmail.com",
-        
-        terms_title: "服务条款",
-        terms_intro: "使用本应用即表示您同意以下条款。",
-        terms_sec1_title: "1. 许可",
-        terms_sec1_desc: "我们授予您个人、非商业用途的使用许可。",
-        terms_sec2_title: "2. 广告",
-        terms_sec2_desc: "本应用包含广告。使用即表示您同意接收广告。",
-        terms_sec3_title: "3. 免责声明",
-        terms_sec3_desc: "本应用按“原样”提供，不保证人脸检测的准确性或完全匿名性。",
-
-        support_title: "支持",
-        support_desc: "有问题或发现漏洞？请联系我们。",
-        contact_btn: "通过电子邮件联系",
-        footer_rights: "© 2025 Face Mosaic Pro. 保留所有权利。"
     },
     es: {
         meta_title: "Face Mosaic Pro - Privacidad de Video AI",
@@ -146,7 +106,7 @@ const translations = {
         privacy_sec2_title: "2. Publicidad",
         privacy_sec2_desc: "Esta aplicación utiliza Google AdMob para mostrar anuncios. AdMob puede recopilar identificadores de dispositivo para anuncios personalizados.",
         privacy_sec3_title: "3. Contacto",
-        privacy_sec3_desc: "Contáctenos en devryosuke2025@gmail.com para cualquier duda.",
+        privacy_sec3_desc: "Contáctenos en devbyryosuke2025@gmail.com para cualquier duda.",
         
         terms_title: "Términos de Servicio",
         terms_intro: "Al usar la aplicación, acepta estos términos.",
@@ -161,6 +121,46 @@ const translations = {
         support_desc: "¿Tiene preguntas? Estamos aquí para ayudar.",
         contact_btn: "Contactar por Email",
         footer_rights: "© 2025 Face Mosaic Pro. Todos los derechos reservados."
+    },
+    zh: {
+        meta_title: "Face Mosaic Pro - AI视频隐私保护",
+        nav_home: "首页",
+        nav_privacy: "隐私政策",
+        nav_terms: "服务条款",
+        nav_support: "支持",
+        hero_title: "利用AI保护视频中的身份",
+        hero_desc: "自动检测人脸并应用马赛克、模糊或贴纸。所有处理均在设备上完成，最大限度保护隐私。",
+        download_ios: "App Store下载",
+        download_android: "Google Play下载",
+        feature_1_title: "AI人脸检测",
+        feature_1_desc: "高精度人脸检测，自动跟踪移动目标。",
+        feature_2_title: "本地隐私保护",
+        feature_2_desc: "您的视频从未离开手机，100%安全。",
+        feature_3_title: "创意效果",
+        feature_3_desc: "选择像素化、模糊、黑屏或贴纸。",
+        
+        privacy_title: "隐私政策",
+        privacy_intro: "在 Face Mosaic Pro，我们优先考虑您的隐私。",
+        privacy_sec1_title: "1. 本地视频处理",
+        privacy_sec1_desc: "我们不会上传、存储或传输您的视频数据到任何服务器。所有处理均在您的设备本地进行。",
+        privacy_sec2_title: "2. 广告和第三方服务",
+        privacy_sec2_desc: "本应用使用 Google AdMob 展示广告。AdMob 可能会收集并使用包括广告 ID 在内的个人数据以提供个性化广告。",
+        privacy_sec3_title: "3. 联系我们",
+        privacy_sec3_desc: "如有疑问，请联系：devbyryosuke2025@gmail.com",
+        
+        terms_title: "服务条款",
+        terms_intro: "使用本应用即表示您同意以下条款。",
+        terms_sec1_title: "1. 许可",
+        terms_sec1_desc: "我们授予您个人、非商业用途的使用许可。",
+        terms_sec2_title: "2. 广告",
+        terms_sec2_desc: "本应用包含广告。使用即表示您同意接收广告。",
+        terms_sec3_title: "3. 免责声明",
+        terms_sec3_desc: "本应用按“原样”提供，不保证人脸检测的准确性或完全匿名性。",
+
+        support_title: "支持",
+        support_desc: "有问题或发现漏洞？请联系我们。",
+        contact_btn: "通过电子邮件联系",
+        footer_rights: "© 2025 Face Mosaic Pro. 保留所有权利。"
     },
     hi: {
         meta_title: "Face Mosaic Pro - AI वीडियो गोपनीयता",
@@ -186,7 +186,7 @@ const translations = {
         privacy_sec2_title: "2. विज्ञापन",
         privacy_sec2_desc: "यह ऐप Google AdMob का उपयोग करता है। विज्ञापन दिखाने के लिए डिवाइस पहचानकर्ताओं का उपयोग किया जा सकता है।",
         privacy_sec3_title: "3. संपर्क करें",
-        privacy_sec3_desc: "प्रश्नों के लिए devryosuke2025@gmail.com पर संपर्क करें।",
+        privacy_sec3_desc: "प्रश्नों के लिए devbyryosuke2025@gmail.com पर संपर्क करें।",
         
         terms_title: "सेवा की शर्तें",
         terms_intro: "इस ऐप का उपयोग करके, आप इन शर्तों से सहमत हैं।",
@@ -226,7 +226,7 @@ const translations = {
         privacy_sec2_title: "2. الإعلانات",
         privacy_sec2_desc: "يستخدم هذا التطبيق Google AdMob لعرض الإعلانات، والتي قد تجمع بيانات الجهاز.",
         privacy_sec3_title: "3. اتصل بنا",
-        privacy_sec3_desc: "للاستفسارات: devryosuke2025@gmail.com",
+        privacy_sec3_desc: "للاستفسارات: devbyryosuke2025@gmail.com",
         
         terms_title: "شروط الخدمة",
         terms_intro: "باستخدامك للتطبيق، أنت توافق على الشروط التالية.",
@@ -266,7 +266,7 @@ const translations = {
         privacy_sec2_title: "2. Publicidade",
         privacy_sec2_desc: "Usamos o Google AdMob para exibir anúncios. Dados do dispositivo podem ser coletados para personalização.",
         privacy_sec3_title: "3. Contato",
-        privacy_sec3_desc: "Dúvidas? devryosuke2025@gmail.com",
+        privacy_sec3_desc: "Dúvidas? devbyryosuke2025@gmail.com",
         
         terms_title: "Termos de Serviço",
         terms_intro: "Ao usar o app, você concorda com estes termos.",
@@ -306,7 +306,7 @@ const translations = {
         privacy_sec2_title: "2. Реклама",
         privacy_sec2_desc: "Приложение использует Google AdMob для показа рекламы, что может включать сбор данных устройства.",
         privacy_sec3_title: "3. Контакты",
-        privacy_sec3_desc: "Вопросы? Пишите на devryosuke2025@gmail.com",
+        privacy_sec3_desc: "Вопросы? Пишите на devbyryosuke2025@gmail.com",
         
         terms_title: "Условия использования",
         terms_intro: "Используя приложение, вы соглашаетесь с условиями.",
@@ -346,7 +346,7 @@ const translations = {
         privacy_sec2_title: "2. 광고",
         privacy_sec2_desc: "이 앱은 Google AdMob을 사용하여 광고를 표시하며, 광고 식별자 등을 수집할 수 있습니다.",
         privacy_sec3_title: "3. 문의",
-        privacy_sec3_desc: "문의사항은 devryosuke2025@gmail.com 으로 연락주세요.",
+        privacy_sec3_desc: "문의사항은 devbyryosuke2025@gmail.com 으로 연락주세요.",
         
         terms_title: "이용 약관",
         terms_intro: "앱을 사용함으로써 다음 약관에 동의하게 됩니다.",
@@ -386,7 +386,7 @@ const translations = {
         privacy_sec2_title: "2. Publicité",
         privacy_sec2_desc: "L'application utilise Google AdMob pour afficher des publicités, ce qui peut impliquer la collecte d'identifiants.",
         privacy_sec3_title: "3. Contact",
-        privacy_sec3_desc: "Contactez-nous à devryosuke2025@gmail.com",
+        privacy_sec3_desc: "Contactez-nous à devbyryosuke2025@gmail.com",
         
         terms_title: "Conditions d'Utilisation",
         terms_intro: "En utilisant l'app, vous acceptez ces conditions.",
@@ -418,16 +418,15 @@ const supportedLanguages = [
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
-    // URLパラメータまたはブラウザ言語から言語を取得
+    // 1. URLパラメータから言語を取得
     const urlParams = new URLSearchParams(window.location.search);
     let currentLang = urlParams.get('lang') || navigator.language.slice(0, 2);
     
-    // サポート外言語は英語にフォールバック
-    if (!translations[currentLang]) currentLang = 'en';
-    
+    // サポートされていない言語なら英語にする
+    if (!translations[currentLang]) currentLang = 'en'; 
     const langData = translations[currentLang];
 
-    // テキストの置換
+    // 2. テキストの置換
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (langData[key]) {
@@ -435,7 +434,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // RTL (右書き) 対応
+    // 3. RTL (右書き) 対応
     if (['ar', 'he'].includes(currentLang)) {
         document.documentElement.setAttribute('dir', 'rtl');
         document.body.classList.add('rtl');
@@ -444,7 +443,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.remove('rtl');
     }
 
-    // 言語セレクターの生成
+    // 4. 言語セレクターの生成
     const selector = document.getElementById('language-selector');
     if (selector) {
         supportedLanguages.forEach(lang => {
@@ -463,16 +462,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // リンクのパラメータ引き継ぎ
+    // 5. リンクのURL書き換え（404エラー対策）
+    // ページ遷移時に言語パラメータを維持するため、aタグのhref属性を直接書き換える
     document.querySelectorAll('a').forEach(link => {
         const href = link.getAttribute('href');
+        // 外部サイト、アンカーリンク、メールリンク以外を対象
         if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto')) {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetUrl = new URL(href, window.location.origin + window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/')));
-                targetUrl.searchParams.set('lang', currentLang);
-                window.location.href = targetUrl.toString();
-            });
+            // 既存のクエリパラメータがあるか確認して区切り文字を決定
+            const separator = href.includes('?') ? '&' : '?';
+            // href属性を直接書き換える（例: privacy.html -> privacy.html?lang=ja）
+            link.setAttribute('href', `${href}${separator}lang=${currentLang}`);
         }
     });
 });
