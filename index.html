@@ -13,11 +13,8 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
-        .text-gradient {
-            background: linear-gradient(to right, #6C63FF, #03DAC6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+        /* RTL support */
+        body.rtl { direction: rtl; }
     </style>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -98,7 +95,7 @@
                 <a href="terms.html" data-i18n="nav_terms" class="hover:text-white">Terms of Service</a>
                 <a href="support.html" data-i18n="nav_support" class="hover:text-white">Support</a>
             </div>
-            <p class="text-gray-600 text-xs" data-i18n="footer_rights">© 2024 Face Mosaic Pro. All rights reserved.</p>
+            <p class="text-gray-600 text-xs" data-i18n="footer_rights">© 2025 Face Mosaic Pro. All rights reserved.</p>
         </div>
     </footer>
 
